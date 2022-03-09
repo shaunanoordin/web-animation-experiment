@@ -71,6 +71,12 @@ table th {
   margin: 1em auto;
   padding: 1em;
 }
+#app > main > section h2 {
+  margin: 0.25em auto;
+}
+#app > main > section button {
+  cursor: pointer;
+}
 
 @keyframes redBlueShift {
   0% {
@@ -82,8 +88,19 @@ table th {
     color: #fff;
   }
 }
-#section-1 {
+#s1-object {
   animation: 6s ease-in-out infinite alternate redBlueShift;
+  background: #000;
+  border: 1px solid #888;
+  width: 10em;
+  height: 2em;
+}
+
+#s2-object {
+  background: #000;
+  border: 1px solid #888;
+  width: 10em;
+  height: 2em;
 }
 
 /*# sourceMappingURL=main.css.map */

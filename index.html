@@ -14,8 +14,21 @@
   <h1>Web Animation Experiment</h1>
 </header>
 <main>
-  <section id="section-1">
-    This uses CSS animation to go from red to blue and back.
+  <section id="s1">
+    <h2>CSS version</h2>
+    <div id="s1-object"></div>
+    <p>This section uses CSS animation to go from red to blue and back.</p>
+  </section>
+
+  <section id="s2">
+    <h2>JavaScript version</h2>
+    <div id="s2-object"></div>
+    <p>This section uses the Web Animation API to configure the animation</p>
+    <div id="s2-controls">
+      <input type="text" id="s2-colour-a" value="#ccaa44" />
+      <span> - </span>
+      <input type="text" id="s2-colour-b" value="#44aacc" />
+      <button type="button" id="s2-start-button">Animate!</button>
   </section>
 </main>
 <footer>2022</footer>

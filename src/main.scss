@@ -84,6 +84,14 @@ table {
   border: 1px solid $grey;
   margin: 1em auto;
   padding: 1em;
+
+  h2 {
+    margin: 0.25em auto;
+  }
+
+  button {
+    cursor: pointer;
+  }
 }
 
 @keyframes redBlueShift {
@@ -98,6 +106,17 @@ table {
   }
 }
 
-#section-1 {
+#s1-object {
   animation: 6s ease-in-out infinite alternate redBlueShift;
+  background: $black;
+  border: 1px solid $grey;
+  width: 10em;
+  height: 2em;
+}
+
+#s2-object {
+  background: $black;
+  border: 1px solid $grey;
+  width: 10em;
+  height: 2em;
 }
