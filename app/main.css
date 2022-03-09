@@ -63,4 +63,27 @@ table th {
   background: #fff;
 }
 
+/*
+--------------------------------------------------------------------------------
+ */
+#app > main > section {
+  border: 1px solid #888;
+  margin: 1em auto;
+  padding: 1em;
+}
+
+@keyframes redBlueShift {
+  0% {
+    background: #c64;
+    color: #fff;
+  }
+  100% {
+    background: #4ac;
+    color: #fff;
+  }
+}
+#section-1 {
+  animation: 6s ease-in-out infinite alternate redBlueShift;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -31,7 +31,7 @@ body {
 a {
   color: $primary;
   text-decoration: none;
-  
+
   &:hover {
     color: $primary-highlight;
   }
@@ -40,13 +40,13 @@ a {
 table {
   width: 100%;
   border-collapse: collapse;
-  
+
   td,
   th {
     border: 1px solid $dark;
   }
 }
-  
+
 #app {
   display: flex;
   flex-direction: column;
@@ -74,4 +74,30 @@ table {
   flex: 1 1 auto;
   padding: 1em;
   background: $white;
+}
+
+/*
+--------------------------------------------------------------------------------
+ */
+
+#app > main > section {
+  border: 1px solid $grey;
+  margin: 1em auto;
+  padding: 1em;
+}
+
+@keyframes redBlueShift {
+  0% {
+    background: #c64;
+    color: #fff;
+  }
+
+  100% {
+    background: #4ac;
+    color: #fff;
+  }
+}
+
+#section-1 {
+  animation: 6s ease-in-out infinite alternate redBlueShift;
 }
